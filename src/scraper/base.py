@@ -15,7 +15,7 @@ class Product:
 class ScraperConfig:
     url: str
     engine_type: str = "autodetect"  # "autodetect", "books_to_scrape", "custom_css"
-    max_pages: int = 1
+    max_pages: int = 0  # 0 means no page limit; scrape all pages when pagination exists
     timeout: int = 10
     custom_selectors: Optional[Dict[str, str]] = None
     headers: Optional[Dict[str, str]] = None

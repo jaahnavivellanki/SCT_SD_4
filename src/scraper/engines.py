@@ -24,13 +24,12 @@ class BooksToScrapeEngine(BaseScraper):
         products = []
         current_url = self.config.url
         current_page = 1
-        max_pages = self.config.max_pages
+        max_pages = self.config.max_pages if self.config.max_pages > 0 else float("inf")
+        total_pages = self.config.max_pages if self.config.max_pages > 0 else 0
         
         session = requests.Session()
         session.headers.update(self.config.headers or get_random_headers())
         
-        # Determine total pages if not strictly bounded
-        # For simplicity, we loop up to max_pages or until no next button.
         while current_page <= max_pages and current_url:
             if self._is_cancelled:
                 logger.info("Scraping cancelled by user.")
@@ -124,102 +123,120 @@ class JSONLDEngine(BaseScraper):
     def scrape(self, progress_callback: Optional[Callable[[int, int, str], None]] = None) -> List[Product]:
         products = []
         url = self.config.url
-        max_pages = self.config.max_pages
+        max_pages = self.config.max_pages if self.config.max_pages > 0 else float("inf")
+        total_pages = self.config.max_pages if self.config.max_pages > 0 else 0
+        current_page = 1
         
         session = requests.Session()
         session.headers.update(self.config.headers or get_random_headers())
         
-        if progress_callback:
-            progress_callback(1, max_pages, "Analyzing page for structured JSON-LD data...")
-            
-        try:
-            response = session.get(url, timeout=self.config.timeout)
-            response.raise_for_status()
-        except requests.RequestException as e:
-            raise RuntimeError(f"Failed to fetch target URL: {str(e)}")
-            
-        soup = BeautifulSoup(response.content, 'html.parser')
-        scripts = soup.find_all('script', type='application/ld+json')
-        
-        for script in scripts:
+        current_url = url
+        while current_url and current_page <= max_pages:
             if self._is_cancelled:
                 break
+
+            if progress_callback:
+                progress_callback(current_page, total_pages, "Analyzing page for structured JSON-LD data...")
+
             try:
-                data = json.loads(script.string or '')
-            except (json.JSONDecodeError, TypeError):
-                continue
-                
-            # Helper to recursively search for Product object
-            def extract_products(obj) -> List[Dict]:
-                results = []
-                if isinstance(obj, dict):
-                    if obj.get('@type') == 'Product':
-                        results.append(obj)
-                    else:
-                        for k, v in obj.items():
-                            results.extend(extract_products(v))
-                elif isinstance(obj, list):
-                    for item in obj:
-                        results.extend(extract_products(item))
-                return results
-                
-            found_products = extract_products(data)
-            
-            for fp in found_products:
+                response = session.get(current_url, timeout=self.config.timeout)
+                response.raise_for_status()
+            except requests.RequestException as e:
+                raise RuntimeError(f"Failed to fetch target URL: {str(e)}")
+
+            soup = BeautifulSoup(response.content, 'html.parser')
+            scripts = soup.find_all('script', type='application/ld+json')
+
+            for script in scripts:
                 if self._is_cancelled:
                     break
-                name = clean_text(fp.get('name', 'Unknown Product'))
-                prod_url = resolve_url(url, fp.get('url', ''))
-                
-                # Extract price & availability from Offers
-                offers = fp.get('offers', {})
-                price_str = ""
-                avail_str = "Unknown"
-                
-                if isinstance(offers, dict):
-                    price = offers.get('price')
-                    currency = offers.get('priceCurrency', '$')
-                    if price:
-                        price_str = f"{currency}{price}" if str(price).startswith(('$', '€', '£')) else f"{price} {currency}"
-                    
-                    avail = offers.get('availability', '')
-                    if 'InStock' in avail or 'in_stock' in avail:
-                        avail_str = "In Stock"
-                    elif 'OutOfStock' in avail or 'out_of_stock' in avail:
-                        avail_str = "Out of Stock"
-                    elif avail:
-                        avail_str = clean_text(avail.split('/')[-1])  # Extract last path segment of Schema URL
-                elif isinstance(offers, list) and len(offers) > 0:
-                    first_offer = offers[0]
-                    price = first_offer.get('price')
-                    currency = first_offer.get('priceCurrency', '$')
-                    if price:
-                        price_str = f"{price} {currency}"
-                    avail = first_offer.get('availability', '')
-                    if 'InStock' in avail:
-                        avail_str = "In Stock"
-                        
-                disp_price, val_price = parse_price(price_str)
-                
-                # Extract rating
-                aggregate_rating = fp.get('aggregateRating', {})
-                rating_str = ""
-                if isinstance(aggregate_rating, dict):
-                    rating_val = aggregate_rating.get('ratingValue')
-                    if rating_val:
-                        rating_str = str(rating_val)
-                val_rating, disp_rating = parse_rating(rating_str)
-                
-                products.append(Product(
-                    name=name,
-                    price_str=disp_price,
-                    price_val=val_price,
-                    rating_val=val_rating,
-                    rating_str=disp_rating,
-                    url=prod_url or url,
-                    availability=avail_str
-                ))
-                
+                try:
+                    data = json.loads(script.string or '')
+                except (json.JSONDecodeError, TypeError):
+                    continue
+
+                def extract_products(obj) -> List[Dict]:
+                    results = []
+                    if isinstance(obj, dict):
+                        if obj.get('@type') == 'Product':
+                            results.append(obj)
+                        else:
+                            for v in obj.values():
+                                results.extend(extract_products(v))
+                    elif isinstance(obj, list):
+                        for item in obj:
+                            results.extend(extract_products(item))
+                    return results
+
+                found_products = extract_products(data)
+
+                for fp in found_products:
+                    if self._is_cancelled:
+                        break
+                    name = clean_text(fp.get('name', 'Unknown Product'))
+                    prod_url = resolve_url(current_url, fp.get('url', ''))
+
+                    offers = fp.get('offers', {})
+                    price_str = ""
+                    avail_str = "Unknown"
+
+                    if isinstance(offers, dict):
+                        price = offers.get('price')
+                        currency = offers.get('priceCurrency', '$')
+                        if price:
+                            price_str = f"{currency}{price}" if str(price).startswith(('$', '€', '£')) else f"{price} {currency}"
+
+                        avail = offers.get('availability', '')
+                        if 'InStock' in avail or 'in_stock' in avail:
+                            avail_str = "In Stock"
+                        elif 'OutOfStock' in avail or 'out_of_stock' in avail:
+                            avail_str = "Out of Stock"
+                        elif avail:
+                            avail_str = clean_text(avail.split('/')[-1])
+                    elif isinstance(offers, list) and offers:
+                        first_offer = offers[0]
+                        price = first_offer.get('price')
+                        currency = first_offer.get('priceCurrency', '$')
+                        if price:
+                            price_str = f"{price} {currency}"
+                        avail = first_offer.get('availability', '')
+                        if 'InStock' in avail:
+                            avail_str = "In Stock"
+
+                    disp_price, val_price = parse_price(price_str)
+
+                    aggregate_rating = fp.get('aggregateRating', {})
+                    rating_str = ""
+                    if isinstance(aggregate_rating, dict):
+                        rating_val = aggregate_rating.get('ratingValue')
+                        if rating_val:
+                            rating_str = str(rating_val)
+                    val_rating, disp_rating = parse_rating(rating_str)
+
+                    products.append(Product(
+                        name=name,
+                        price_str=disp_price,
+                        price_val=val_price,
+                        rating_val=val_rating,
+                        rating_str=disp_rating,
+                        url=prod_url or current_url,
+                        availability=avail_str
+                    ))
+
+            if progress_callback:
+                progress_callback(current_page, total_pages, f"Page {current_page} scanned. Found {len(products)} products so far.")
+
+            next_link = None
+            next_button = soup.select_one('link[rel="next"], a[rel="next"], li.next > a')
+            if next_button and next_button.get('href'):
+                next_link = resolve_url(current_url, next_button.get('href'))
+
+            if next_link and current_page < max_pages:
+                current_url = next_link
+                current_page += 1
+            else:
+                break
+
         # If no JSON-LD products, search standard metadata tags (meta og:product)
         if not products:
             if progress_callback:
@@ -264,7 +281,8 @@ class CustomCSSEngine(BaseScraper):
         products = []
         current_url = self.config.url
         current_page = 1
-        max_pages = self.config.max_pages
+        max_pages = self.config.max_pages if self.config.max_pages > 0 else float("inf")
+        total_pages = self.config.max_pages if self.config.max_pages > 0 else 0
         
         selectors = self.config.custom_selectors or {}
         container_sel = selectors.get('container', '').strip()
@@ -286,7 +304,7 @@ class CustomCSSEngine(BaseScraper):
                 break
                 
             if progress_callback:
-                progress_callback(current_page, max_pages, f"Fetching custom page {current_page}...")
+                progress_callback(current_page, total_pages, f"Fetching custom page {current_page}...")
                 
             try:
                 response = session.get(current_url, timeout=self.config.timeout)

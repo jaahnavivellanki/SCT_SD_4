@@ -174,8 +174,8 @@ class MainWindow(ctk.CTk):
         self.status_bar = ctk.CTkFrame(self, fg_color=BG_SIDEBAR, height=28, corner_radius=0)
         self.status_bar.grid(row=1, column=0, columnspan=2, sticky="ew")
         
-        self.status_dot = ctk.CTkLabel(self.status_bar, text="●", font=(FONT_FAMILY, 12), text_color=ACCENT_GREEN, width=15)
-        self.status_dot.pack(side="left", padx=(12, 2))
+        self.status_dot = ctk.CTkFrame(self.status_bar, width=12, height=12, corner_radius=6, fg_color=ACCENT_GREEN)
+        self.status_dot.pack(side="left", padx=(12, 2), pady=8)
         
         self.status_bar_lbl = ctk.CTkLabel(self.status_bar, text="System ready", font=(FONT_FAMILY, 11), text_color=TEXT_SECONDARY)
         self.status_bar_lbl.pack(side="left")
@@ -426,11 +426,11 @@ class MainWindow(ctk.CTk):
         # Max Pages Settings
         max_pages_frame = ctk.CTkFrame(body, fg_color="transparent")
         max_pages_frame.pack(fill="x", pady=10, padx=10)
-        ctk.CTkLabel(max_pages_frame, text="Maximum Pages to Scrape:", font=(FONT_FAMILY, 13, "bold"), text_color=TEXT_PRIMARY, width=200, anchor="w").pack(side="left")
+        ctk.CTkLabel(max_pages_frame, text="Maximum Pages to Scrape (0 = unlimited):", font=(FONT_FAMILY, 13, "bold"), text_color=TEXT_PRIMARY, width=240, anchor="w").pack(side="left")
         self.max_pages_entry = ctk.CTkEntry(max_pages_frame, textvariable=self.max_pages_var, width=80, font=(FONT_FAMILY, 12), fg_color=BG_INPUT, border_color=BG_CARD_BORDER)
         self.max_pages_entry.pack(side="left")
-        create_tooltip(self.max_pages_entry, "Configures the crawl page limit for multi-page engines")
-        ctk.CTkLabel(max_pages_frame, text="Limits crawlers to prevent server overload.", font=(FONT_FAMILY, 11), text_color=TEXT_MUTED).pack(side="left", padx=15)
+        create_tooltip(self.max_pages_entry, "Configures the crawl page limit for multi-page engines. Use 0 to scrape all available pages.")
+        ctk.CTkLabel(max_pages_frame, text="Set 0 to scrape all pages, or limit to prevent server overload.", font=(FONT_FAMILY, 11), text_color=TEXT_MUTED).pack(side="left", padx=15)
         
         # Request Timeout Settings
         timeout_frame = ctk.CTkFrame(body, fg_color="transparent")
@@ -609,8 +609,8 @@ class MainWindow(ctk.CTk):
             messagebox.showerror("Error", "Settings values must be valid numbers.")
             return
 
-        if max_pages < 1:
-            messagebox.showerror("Error", "Please set the maximum page count to 1 or greater.")
+        if max_pages < 0:
+            messagebox.showerror("Error", "Please set the maximum page count to 0 (unlimited) or a positive integer.")
             return
 
         if timeout < 1:
@@ -637,7 +637,7 @@ class MainWindow(ctk.CTk):
             val.configure(text="-")
             
         self.scrape_start_time = time.time()
-        self.status_dot.configure(text_color=ACCENT_BLUE)
+        self.status_dot.configure(fg_color=ACCENT_BLUE)
         self.status_bar_lbl.configure(text="Scraping website...")
         self.status_bar_right.configure(text=f"Engine: {engine_type.upper()} | Starting thread...")
         
@@ -763,7 +763,7 @@ class MainWindow(ctk.CTk):
                     logger.warning(f"Could not auto-save scraping run: {e}")
             
             # Status messages details
-            self.status_dot.configure(text_color=ACCENT_GREEN)
+            self.status_dot.configure(fg_color=ACCENT_GREEN)
             msg_status = f"Scrape completed in {mins:02d}:{secs:02d}."
             if duplicates_cnt > 0:
                 msg_status += f" {duplicates_cnt} duplicates removed."
@@ -793,7 +793,7 @@ class MainWindow(ctk.CTk):
                 self.export_csv_btn.configure(state="disabled")
                 self.export_excel_btn.configure(state="disabled")
         else:
-            self.status_dot.configure(text_color=ACCENT_RED)
+            self.status_dot.configure(fg_color=ACCENT_RED)
             self.status_bar_lbl.configure(text="Scraping thread aborted.")
             self.status_bar_right.configure(text="Idle")
             
@@ -918,7 +918,7 @@ class MainWindow(ctk.CTk):
             self.export_csv_btn.configure(state="normal")
             self.export_excel_btn.configure(state="normal")
             
-        self.status_dot.configure(text_color=ACCENT_GREEN)
+        self.status_dot.configure(fg_color=ACCENT_GREEN)
         self.status_bar_lbl.configure(text=f"Loaded session containing {len(loaded_products)} products.")
         self.status_bar_right.configure(text=f"Active dataset: {len(loaded_products)} products | History Loaded")
         

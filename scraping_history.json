@@ -1,0 +1,2759 @@
+[
+  {
+    "session_id": "20260619_222200",
+    "timestamp": "2026-06-19 22:22:00",
+    "url": "http://books.toscrape.com/",
+    "products_count": 60,
+    "products": [
+      {
+        "name": "A Light in the Attic",
+        "price_str": "£51.77",
+        "price_val": 51.77,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Tipping the Velvet",
+        "price_str": "£53.74",
+        "price_val": 53.74,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Soumission",
+        "price_str": "£50.10",
+        "price_val": 50.1,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/soumission_998/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Sharp Objects",
+        "price_str": "£47.82",
+        "price_val": 47.82,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/sharp-objects_997/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Sapiens: A Brief History of Humankind",
+        "price_str": "£54.23",
+        "price_val": 54.23,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Requiem Red",
+        "price_str": "£22.65",
+        "price_val": 22.65,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-requiem-red_995/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Dirty Little Secrets of Getting Your Dream Job",
+        "price_str": "£33.34",
+        "price_val": 33.34,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
+        "price_str": "£17.93",
+        "price_val": 17.93,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+        "price_str": "£22.60",
+        "price_val": 22.6,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Black Maria",
+        "price_str": "£52.15",
+        "price_val": 52.15,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-black-maria_991/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Starving Hearts (Triangular Trade Trilogy, #1)",
+        "price_str": "£13.99",
+        "price_val": 13.99,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Shakespeare's Sonnets",
+        "price_str": "£20.66",
+        "price_val": 20.66,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Set Me Free",
+        "price_str": "£17.46",
+        "price_val": 17.46,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/set-me-free_988/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+        "price_str": "£52.29",
+        "price_val": 52.29,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Rip it Up and Start Again",
+        "price_str": "£35.02",
+        "price_val": 35.02,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+        "price_str": "£57.25",
+        "price_val": 57.25,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Olio",
+        "price_str": "£23.88",
+        "price_val": 23.88,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/olio_984/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Mesaerion: The Best Science Fiction Stories 1800-1849",
+        "price_str": "£37.59",
+        "price_val": 37.59,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Libertarianism for Beginners",
+        "price_str": "£51.33",
+        "price_val": 51.33,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "It's Only the Himalayas",
+        "price_str": "£45.17",
+        "price_val": 45.17,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "In Her Wake",
+        "price_str": "£12.84",
+        "price_val": 12.84,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/in-her-wake_980/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "How Music Works",
+        "price_str": "£37.32",
+        "price_val": 37.32,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/how-music-works_979/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More",
+        "price_str": "£30.52",
+        "price_val": 30.52,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/foolproof-preserving-a-guide-to-small-batch-jams-jellies-pickles-condiments-and-more-a-foolproof-guide-to-making-small-batch-jams-jellies-pickles-condiments-and-more_978/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Chase Me (Paris Nights #2)",
+        "price_str": "£25.27",
+        "price_val": 25.27,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/chase-me-paris-nights-2_977/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Black Dust",
+        "price_str": "£34.53",
+        "price_val": 34.53,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/black-dust_976/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Birdsong: A Story in Pictures",
+        "price_str": "£54.64",
+        "price_val": 54.64,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/birdsong-a-story-in-pictures_975/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana",
+        "price_str": "£22.50",
+        "price_val": 22.5,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/americas-cradle-of-quarterbacks-western-pennsylvanias-football-factory-from-johnny-unitas-to-joe-montana_974/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Aladdin and His Wonderful Lamp",
+        "price_str": "£53.13",
+        "price_val": 53.13,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/aladdin-and-his-wonderful-lamp_973/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Worlds Elsewhere: Journeys Around Shakespeare’s Globe",
+        "price_str": "£40.30",
+        "price_val": 40.3,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/worlds-elsewhere-journeys-around-shakespeares-globe_972/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Wall and Piece",
+        "price_str": "£44.18",
+        "price_val": 44.18,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/wall-and-piece_971/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Four Agreements: A Practical Guide to Personal Freedom",
+        "price_str": "£17.66",
+        "price_val": 17.66,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/the-four-agreements-a-practical-guide-to-personal-freedom_970/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
+        "price_str": "£31.05",
+        "price_val": 31.05,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-five-love-languages-how-to-express-heartfelt-commitment-to-your-mate_969/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Elephant Tree",
+        "price_str": "£23.82",
+        "price_val": 23.82,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/the-elephant-tree_968/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Bear and the Piano",
+        "price_str": "£36.89",
+        "price_val": 36.89,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-bear-and-the-piano_967/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Sophie's World",
+        "price_str": "£15.94",
+        "price_val": 15.94,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/sophies-world_966/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Penny Maybe",
+        "price_str": "£33.29",
+        "price_val": 33.29,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/penny-maybe_965/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Maude (1883-1993):She Grew Up with the country",
+        "price_str": "£18.02",
+        "price_val": 18.02,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/maude-1883-1993she-grew-up-with-the-country_964/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "In a Dark, Dark Wood",
+        "price_str": "£19.63",
+        "price_val": 19.63,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/in-a-dark-dark-wood_963/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Behind Closed Doors",
+        "price_str": "£52.22",
+        "price_val": 52.22,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/behind-closed-doors_962/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "You can't bury them all: Poems",
+        "price_str": "£33.63",
+        "price_val": 33.63,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/you-cant-bury-them-all-poems_961/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Slow States of Collapse: Poems",
+        "price_str": "£57.31",
+        "price_val": 57.31,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/slow-states-of-collapse-poems_960/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Reasons to Stay Alive",
+        "price_str": "£26.41",
+        "price_val": 26.41,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/reasons-to-stay-alive_959/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Private Paris (Private #10)",
+        "price_str": "£47.61",
+        "price_val": 47.61,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/private-paris-private-10_958/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "#HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.",
+        "price_str": "£23.11",
+        "price_val": 23.11,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/higherselfie-wake-up-your-life-free-your-soul-find-your-tribe_957/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Without Borders (Wanderlove #1)",
+        "price_str": "£45.07",
+        "price_val": 45.07,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/without-borders-wanderlove-1_956/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "When We Collided",
+        "price_str": "£31.77",
+        "price_val": 31.77,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/when-we-collided_955/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "We Love You, Charlie Freeman",
+        "price_str": "£50.27",
+        "price_val": 50.27,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/we-love-you-charlie-freeman_954/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Untitled Collection: Sabbath Poems 2014",
+        "price_str": "£14.27",
+        "price_val": 14.27,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/untitled-collection-sabbath-poems-2014_953/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness",
+        "price_str": "£44.18",
+        "price_val": 44.18,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/unseen-city-the-majesty-of-pigeons-the-discreet-charm-of-snails-other-wonders-of-the-urban-wilderness_952/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Unicorn Tracks",
+        "price_str": "£18.78",
+        "price_val": 18.78,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/unicorn-tracks_951/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink",
+        "price_str": "£25.52",
+        "price_val": 25.52,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/unbound-how-eight-technologies-made-us-human-transformed-society-and-brought-our-world-to-the-brink_950/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)",
+        "price_str": "£16.28",
+        "price_val": 16.28,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/tsubasa-world-chronicle-2-tsubasa-world-chronicle-2_949/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity",
+        "price_str": "£31.12",
+        "price_val": 31.12,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/throwing-rocks-at-the-google-bus-how-growth-became-the-enemy-of-prosperity_948/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "This One Summer",
+        "price_str": "£19.49",
+        "price_val": 19.49,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/this-one-summer_947/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Thirst",
+        "price_str": "£17.27",
+        "price_val": 17.27,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/thirst_946/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Torch Is Passed: A Harding Family Story",
+        "price_str": "£19.09",
+        "price_val": 19.09,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-torch-is-passed-a-harding-family-story_945/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Secret of Dreadwillow Carse",
+        "price_str": "£56.13",
+        "price_val": 56.13,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-secret-of-dreadwillow-carse_944/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!",
+        "price_str": "£56.41",
+        "price_val": 56.41,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-pioneer-woman-cooks-dinnertime-comfort-classics-freezer-food-16-minute-meals-and-other-delicious-ways-to-solve-supper_943/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Past Never Ends",
+        "price_str": "£56.50",
+        "price_val": 56.5,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/the-past-never-ends_942/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Natural History of Us (The Fine Art of Pretending #2)",
+        "price_str": "£45.22",
+        "price_val": 45.22,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-natural-history-of-us-the-fine-art-of-pretending-2_941/index.html",
+        "availability": "In stock"
+      }
+    ]
+  },
+  {
+    "session_id": "20260619_221823",
+    "timestamp": "2026-06-19 22:18:23",
+    "url": "http://books.toscrape.com/",
+    "products_count": 60,
+    "products": [
+      {
+        "name": "A Light in the Attic",
+        "price_str": "£51.77",
+        "price_val": 51.77,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Tipping the Velvet",
+        "price_str": "£53.74",
+        "price_val": 53.74,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Soumission",
+        "price_str": "£50.10",
+        "price_val": 50.1,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/soumission_998/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Sharp Objects",
+        "price_str": "£47.82",
+        "price_val": 47.82,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/sharp-objects_997/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Sapiens: A Brief History of Humankind",
+        "price_str": "£54.23",
+        "price_val": 54.23,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Requiem Red",
+        "price_str": "£22.65",
+        "price_val": 22.65,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-requiem-red_995/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Dirty Little Secrets of Getting Your Dream Job",
+        "price_str": "£33.34",
+        "price_val": 33.34,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
+        "price_str": "£17.93",
+        "price_val": 17.93,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+        "price_str": "£22.60",
+        "price_val": 22.6,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Black Maria",
+        "price_str": "£52.15",
+        "price_val": 52.15,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-black-maria_991/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Starving Hearts (Triangular Trade Trilogy, #1)",
+        "price_str": "£13.99",
+        "price_val": 13.99,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Shakespeare's Sonnets",
+        "price_str": "£20.66",
+        "price_val": 20.66,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Set Me Free",
+        "price_str": "£17.46",
+        "price_val": 17.46,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/set-me-free_988/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+        "price_str": "£52.29",
+        "price_val": 52.29,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Rip it Up and Start Again",
+        "price_str": "£35.02",
+        "price_val": 35.02,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+        "price_str": "£57.25",
+        "price_val": 57.25,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Olio",
+        "price_str": "£23.88",
+        "price_val": 23.88,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/olio_984/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Mesaerion: The Best Science Fiction Stories 1800-1849",
+        "price_str": "£37.59",
+        "price_val": 37.59,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Libertarianism for Beginners",
+        "price_str": "£51.33",
+        "price_val": 51.33,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "It's Only the Himalayas",
+        "price_str": "£45.17",
+        "price_val": 45.17,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "In Her Wake",
+        "price_str": "£12.84",
+        "price_val": 12.84,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/in-her-wake_980/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "How Music Works",
+        "price_str": "£37.32",
+        "price_val": 37.32,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/how-music-works_979/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More",
+        "price_str": "£30.52",
+        "price_val": 30.52,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/foolproof-preserving-a-guide-to-small-batch-jams-jellies-pickles-condiments-and-more-a-foolproof-guide-to-making-small-batch-jams-jellies-pickles-condiments-and-more_978/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Chase Me (Paris Nights #2)",
+        "price_str": "£25.27",
+        "price_val": 25.27,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/chase-me-paris-nights-2_977/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Black Dust",
+        "price_str": "£34.53",
+        "price_val": 34.53,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/black-dust_976/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Birdsong: A Story in Pictures",
+        "price_str": "£54.64",
+        "price_val": 54.64,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/birdsong-a-story-in-pictures_975/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana",
+        "price_str": "£22.50",
+        "price_val": 22.5,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/americas-cradle-of-quarterbacks-western-pennsylvanias-football-factory-from-johnny-unitas-to-joe-montana_974/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Aladdin and His Wonderful Lamp",
+        "price_str": "£53.13",
+        "price_val": 53.13,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/aladdin-and-his-wonderful-lamp_973/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Worlds Elsewhere: Journeys Around Shakespeare’s Globe",
+        "price_str": "£40.30",
+        "price_val": 40.3,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/worlds-elsewhere-journeys-around-shakespeares-globe_972/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Wall and Piece",
+        "price_str": "£44.18",
+        "price_val": 44.18,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/wall-and-piece_971/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Four Agreements: A Practical Guide to Personal Freedom",
+        "price_str": "£17.66",
+        "price_val": 17.66,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/the-four-agreements-a-practical-guide-to-personal-freedom_970/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
+        "price_str": "£31.05",
+        "price_val": 31.05,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-five-love-languages-how-to-express-heartfelt-commitment-to-your-mate_969/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Elephant Tree",
+        "price_str": "£23.82",
+        "price_val": 23.82,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/the-elephant-tree_968/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Bear and the Piano",
+        "price_str": "£36.89",
+        "price_val": 36.89,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-bear-and-the-piano_967/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Sophie's World",
+        "price_str": "£15.94",
+        "price_val": 15.94,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/sophies-world_966/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Penny Maybe",
+        "price_str": "£33.29",
+        "price_val": 33.29,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/penny-maybe_965/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Maude (1883-1993):She Grew Up with the country",
+        "price_str": "£18.02",
+        "price_val": 18.02,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/maude-1883-1993she-grew-up-with-the-country_964/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "In a Dark, Dark Wood",
+        "price_str": "£19.63",
+        "price_val": 19.63,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/in-a-dark-dark-wood_963/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Behind Closed Doors",
+        "price_str": "£52.22",
+        "price_val": 52.22,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/behind-closed-doors_962/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "You can't bury them all: Poems",
+        "price_str": "£33.63",
+        "price_val": 33.63,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/you-cant-bury-them-all-poems_961/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Slow States of Collapse: Poems",
+        "price_str": "£57.31",
+        "price_val": 57.31,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/slow-states-of-collapse-poems_960/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Reasons to Stay Alive",
+        "price_str": "£26.41",
+        "price_val": 26.41,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/reasons-to-stay-alive_959/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Private Paris (Private #10)",
+        "price_str": "£47.61",
+        "price_val": 47.61,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/private-paris-private-10_958/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "#HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.",
+        "price_str": "£23.11",
+        "price_val": 23.11,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/higherselfie-wake-up-your-life-free-your-soul-find-your-tribe_957/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Without Borders (Wanderlove #1)",
+        "price_str": "£45.07",
+        "price_val": 45.07,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/without-borders-wanderlove-1_956/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "When We Collided",
+        "price_str": "£31.77",
+        "price_val": 31.77,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/when-we-collided_955/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "We Love You, Charlie Freeman",
+        "price_str": "£50.27",
+        "price_val": 50.27,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/we-love-you-charlie-freeman_954/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Untitled Collection: Sabbath Poems 2014",
+        "price_str": "£14.27",
+        "price_val": 14.27,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/untitled-collection-sabbath-poems-2014_953/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness",
+        "price_str": "£44.18",
+        "price_val": 44.18,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/unseen-city-the-majesty-of-pigeons-the-discreet-charm-of-snails-other-wonders-of-the-urban-wilderness_952/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Unicorn Tracks",
+        "price_str": "£18.78",
+        "price_val": 18.78,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/unicorn-tracks_951/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink",
+        "price_str": "£25.52",
+        "price_val": 25.52,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/unbound-how-eight-technologies-made-us-human-transformed-society-and-brought-our-world-to-the-brink_950/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)",
+        "price_str": "£16.28",
+        "price_val": 16.28,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/tsubasa-world-chronicle-2-tsubasa-world-chronicle-2_949/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity",
+        "price_str": "£31.12",
+        "price_val": 31.12,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/throwing-rocks-at-the-google-bus-how-growth-became-the-enemy-of-prosperity_948/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "This One Summer",
+        "price_str": "£19.49",
+        "price_val": 19.49,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/this-one-summer_947/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Thirst",
+        "price_str": "£17.27",
+        "price_val": 17.27,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/thirst_946/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Torch Is Passed: A Harding Family Story",
+        "price_str": "£19.09",
+        "price_val": 19.09,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-torch-is-passed-a-harding-family-story_945/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Secret of Dreadwillow Carse",
+        "price_str": "£56.13",
+        "price_val": 56.13,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-secret-of-dreadwillow-carse_944/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!",
+        "price_str": "£56.41",
+        "price_val": 56.41,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-pioneer-woman-cooks-dinnertime-comfort-classics-freezer-food-16-minute-meals-and-other-delicious-ways-to-solve-supper_943/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Past Never Ends",
+        "price_str": "£56.50",
+        "price_val": 56.5,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/the-past-never-ends_942/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Natural History of Us (The Fine Art of Pretending #2)",
+        "price_str": "£45.22",
+        "price_val": 45.22,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-natural-history-of-us-the-fine-art-of-pretending-2_941/index.html",
+        "availability": "In stock"
+      }
+    ]
+  },
+  {
+    "session_id": "20260619_215522",
+    "timestamp": "2026-06-19 21:55:22",
+    "url": "https://books.toscrape.com/",
+    "products_count": 60,
+    "products": [
+      {
+        "name": "A Light in the Attic",
+        "price_str": "£51.77",
+        "price_val": 51.77,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Tipping the Velvet",
+        "price_str": "£53.74",
+        "price_val": 53.74,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Soumission",
+        "price_str": "£50.10",
+        "price_val": 50.1,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/soumission_998/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Sharp Objects",
+        "price_str": "£47.82",
+        "price_val": 47.82,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/sharp-objects_997/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Sapiens: A Brief History of Humankind",
+        "price_str": "£54.23",
+        "price_val": 54.23,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Requiem Red",
+        "price_str": "£22.65",
+        "price_val": 22.65,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/the-requiem-red_995/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Dirty Little Secrets of Getting Your Dream Job",
+        "price_str": "£33.34",
+        "price_val": 33.34,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
+        "price_str": "£17.93",
+        "price_val": 17.93,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+        "price_str": "£22.60",
+        "price_val": 22.6,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Black Maria",
+        "price_str": "£52.15",
+        "price_val": 52.15,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/the-black-maria_991/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Starving Hearts (Triangular Trade Trilogy, #1)",
+        "price_str": "£13.99",
+        "price_val": 13.99,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Shakespeare's Sonnets",
+        "price_str": "£20.66",
+        "price_val": 20.66,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Set Me Free",
+        "price_str": "£17.46",
+        "price_val": 17.46,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/set-me-free_988/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+        "price_str": "£52.29",
+        "price_val": 52.29,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Rip it Up and Start Again",
+        "price_str": "£35.02",
+        "price_val": 35.02,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+        "price_str": "£57.25",
+        "price_val": 57.25,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Olio",
+        "price_str": "£23.88",
+        "price_val": 23.88,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/olio_984/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Mesaerion: The Best Science Fiction Stories 1800-1849",
+        "price_str": "£37.59",
+        "price_val": 37.59,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Libertarianism for Beginners",
+        "price_str": "£51.33",
+        "price_val": 51.33,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "It's Only the Himalayas",
+        "price_str": "£45.17",
+        "price_val": 45.17,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "In Her Wake",
+        "price_str": "£12.84",
+        "price_val": 12.84,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/in-her-wake_980/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "How Music Works",
+        "price_str": "£37.32",
+        "price_val": 37.32,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/how-music-works_979/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More",
+        "price_str": "£30.52",
+        "price_val": 30.52,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/foolproof-preserving-a-guide-to-small-batch-jams-jellies-pickles-condiments-and-more-a-foolproof-guide-to-making-small-batch-jams-jellies-pickles-condiments-and-more_978/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Chase Me (Paris Nights #2)",
+        "price_str": "£25.27",
+        "price_val": 25.27,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/chase-me-paris-nights-2_977/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Black Dust",
+        "price_str": "£34.53",
+        "price_val": 34.53,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/black-dust_976/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Birdsong: A Story in Pictures",
+        "price_str": "£54.64",
+        "price_val": 54.64,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/birdsong-a-story-in-pictures_975/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana",
+        "price_str": "£22.50",
+        "price_val": 22.5,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/americas-cradle-of-quarterbacks-western-pennsylvanias-football-factory-from-johnny-unitas-to-joe-montana_974/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Aladdin and His Wonderful Lamp",
+        "price_str": "£53.13",
+        "price_val": 53.13,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/aladdin-and-his-wonderful-lamp_973/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Worlds Elsewhere: Journeys Around Shakespeare’s Globe",
+        "price_str": "£40.30",
+        "price_val": 40.3,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/worlds-elsewhere-journeys-around-shakespeares-globe_972/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Wall and Piece",
+        "price_str": "£44.18",
+        "price_val": 44.18,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/wall-and-piece_971/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Four Agreements: A Practical Guide to Personal Freedom",
+        "price_str": "£17.66",
+        "price_val": 17.66,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/the-four-agreements-a-practical-guide-to-personal-freedom_970/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
+        "price_str": "£31.05",
+        "price_val": 31.05,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/the-five-love-languages-how-to-express-heartfelt-commitment-to-your-mate_969/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Elephant Tree",
+        "price_str": "£23.82",
+        "price_val": 23.82,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/the-elephant-tree_968/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Bear and the Piano",
+        "price_str": "£36.89",
+        "price_val": 36.89,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/the-bear-and-the-piano_967/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Sophie's World",
+        "price_str": "£15.94",
+        "price_val": 15.94,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/sophies-world_966/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Penny Maybe",
+        "price_str": "£33.29",
+        "price_val": 33.29,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/penny-maybe_965/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Maude (1883-1993):She Grew Up with the country",
+        "price_str": "£18.02",
+        "price_val": 18.02,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/maude-1883-1993she-grew-up-with-the-country_964/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "In a Dark, Dark Wood",
+        "price_str": "£19.63",
+        "price_val": 19.63,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/in-a-dark-dark-wood_963/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Behind Closed Doors",
+        "price_str": "£52.22",
+        "price_val": 52.22,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/behind-closed-doors_962/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "You can't bury them all: Poems",
+        "price_str": "£33.63",
+        "price_val": 33.63,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/you-cant-bury-them-all-poems_961/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Slow States of Collapse: Poems",
+        "price_str": "£57.31",
+        "price_val": 57.31,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/slow-states-of-collapse-poems_960/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Reasons to Stay Alive",
+        "price_str": "£26.41",
+        "price_val": 26.41,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/reasons-to-stay-alive_959/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Private Paris (Private #10)",
+        "price_str": "£47.61",
+        "price_val": 47.61,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/private-paris-private-10_958/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "#HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.",
+        "price_str": "£23.11",
+        "price_val": 23.11,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/higherselfie-wake-up-your-life-free-your-soul-find-your-tribe_957/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Without Borders (Wanderlove #1)",
+        "price_str": "£45.07",
+        "price_val": 45.07,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/without-borders-wanderlove-1_956/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "When We Collided",
+        "price_str": "£31.77",
+        "price_val": 31.77,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/when-we-collided_955/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "We Love You, Charlie Freeman",
+        "price_str": "£50.27",
+        "price_val": 50.27,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/we-love-you-charlie-freeman_954/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Untitled Collection: Sabbath Poems 2014",
+        "price_str": "£14.27",
+        "price_val": 14.27,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/untitled-collection-sabbath-poems-2014_953/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness",
+        "price_str": "£44.18",
+        "price_val": 44.18,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/unseen-city-the-majesty-of-pigeons-the-discreet-charm-of-snails-other-wonders-of-the-urban-wilderness_952/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Unicorn Tracks",
+        "price_str": "£18.78",
+        "price_val": 18.78,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/unicorn-tracks_951/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink",
+        "price_str": "£25.52",
+        "price_val": 25.52,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/unbound-how-eight-technologies-made-us-human-transformed-society-and-brought-our-world-to-the-brink_950/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)",
+        "price_str": "£16.28",
+        "price_val": 16.28,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/tsubasa-world-chronicle-2-tsubasa-world-chronicle-2_949/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity",
+        "price_str": "£31.12",
+        "price_val": 31.12,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/throwing-rocks-at-the-google-bus-how-growth-became-the-enemy-of-prosperity_948/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "This One Summer",
+        "price_str": "£19.49",
+        "price_val": 19.49,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/this-one-summer_947/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Thirst",
+        "price_str": "£17.27",
+        "price_val": 17.27,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/thirst_946/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Torch Is Passed: A Harding Family Story",
+        "price_str": "£19.09",
+        "price_val": 19.09,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/the-torch-is-passed-a-harding-family-story_945/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Secret of Dreadwillow Carse",
+        "price_str": "£56.13",
+        "price_val": 56.13,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/the-secret-of-dreadwillow-carse_944/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!",
+        "price_str": "£56.41",
+        "price_val": 56.41,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/the-pioneer-woman-cooks-dinnertime-comfort-classics-freezer-food-16-minute-meals-and-other-delicious-ways-to-solve-supper_943/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Past Never Ends",
+        "price_str": "£56.50",
+        "price_val": 56.5,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/the-past-never-ends_942/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Natural History of Us (The Fine Art of Pretending #2)",
+        "price_str": "£45.22",
+        "price_val": 45.22,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/the-natural-history-of-us-the-fine-art-of-pretending-2_941/index.html",
+        "availability": "In stock"
+      }
+    ]
+  },
+  {
+    "session_id": "20260619_215213",
+    "timestamp": "2026-06-19 21:52:13",
+    "url": "https://webscraper.io/test-sites/e-commerce/static",
+    "products_count": 1,
+    "products": [
+      {
+        "name": "Static | Web Scraper Test Sites",
+        "price_str": "N/A",
+        "price_val": 0.0,
+        "rating_val": 0.0,
+        "rating_str": "☆☆☆☆☆",
+        "url": "https://webscraper.io/test-sites/e-commerce/static",
+        "availability": "Unknown"
+      }
+    ]
+  },
+  {
+    "session_id": "20260619_215148",
+    "timestamp": "2026-06-19 21:51:48",
+    "url": "https://books.toscrape.com/",
+    "products_count": 60,
+    "products": [
+      {
+        "name": "A Light in the Attic",
+        "price_str": "£51.77",
+        "price_val": 51.77,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Tipping the Velvet",
+        "price_str": "£53.74",
+        "price_val": 53.74,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Soumission",
+        "price_str": "£50.10",
+        "price_val": 50.1,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/soumission_998/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Sharp Objects",
+        "price_str": "£47.82",
+        "price_val": 47.82,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/sharp-objects_997/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Sapiens: A Brief History of Humankind",
+        "price_str": "£54.23",
+        "price_val": 54.23,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Requiem Red",
+        "price_str": "£22.65",
+        "price_val": 22.65,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/the-requiem-red_995/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Dirty Little Secrets of Getting Your Dream Job",
+        "price_str": "£33.34",
+        "price_val": 33.34,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
+        "price_str": "£17.93",
+        "price_val": 17.93,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+        "price_str": "£22.60",
+        "price_val": 22.6,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Black Maria",
+        "price_str": "£52.15",
+        "price_val": 52.15,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/the-black-maria_991/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Starving Hearts (Triangular Trade Trilogy, #1)",
+        "price_str": "£13.99",
+        "price_val": 13.99,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Shakespeare's Sonnets",
+        "price_str": "£20.66",
+        "price_val": 20.66,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Set Me Free",
+        "price_str": "£17.46",
+        "price_val": 17.46,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/set-me-free_988/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+        "price_str": "£52.29",
+        "price_val": 52.29,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Rip it Up and Start Again",
+        "price_str": "£35.02",
+        "price_val": 35.02,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+        "price_str": "£57.25",
+        "price_val": 57.25,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Olio",
+        "price_str": "£23.88",
+        "price_val": 23.88,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/olio_984/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Mesaerion: The Best Science Fiction Stories 1800-1849",
+        "price_str": "£37.59",
+        "price_val": 37.59,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Libertarianism for Beginners",
+        "price_str": "£51.33",
+        "price_val": 51.33,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "It's Only the Himalayas",
+        "price_str": "£45.17",
+        "price_val": 45.17,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "In Her Wake",
+        "price_str": "£12.84",
+        "price_val": 12.84,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/in-her-wake_980/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "How Music Works",
+        "price_str": "£37.32",
+        "price_val": 37.32,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/how-music-works_979/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More",
+        "price_str": "£30.52",
+        "price_val": 30.52,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/foolproof-preserving-a-guide-to-small-batch-jams-jellies-pickles-condiments-and-more-a-foolproof-guide-to-making-small-batch-jams-jellies-pickles-condiments-and-more_978/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Chase Me (Paris Nights #2)",
+        "price_str": "£25.27",
+        "price_val": 25.27,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/chase-me-paris-nights-2_977/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Black Dust",
+        "price_str": "£34.53",
+        "price_val": 34.53,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/black-dust_976/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Birdsong: A Story in Pictures",
+        "price_str": "£54.64",
+        "price_val": 54.64,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/birdsong-a-story-in-pictures_975/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana",
+        "price_str": "£22.50",
+        "price_val": 22.5,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/americas-cradle-of-quarterbacks-western-pennsylvanias-football-factory-from-johnny-unitas-to-joe-montana_974/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Aladdin and His Wonderful Lamp",
+        "price_str": "£53.13",
+        "price_val": 53.13,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/aladdin-and-his-wonderful-lamp_973/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Worlds Elsewhere: Journeys Around Shakespeare’s Globe",
+        "price_str": "£40.30",
+        "price_val": 40.3,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/worlds-elsewhere-journeys-around-shakespeares-globe_972/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Wall and Piece",
+        "price_str": "£44.18",
+        "price_val": 44.18,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/wall-and-piece_971/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Four Agreements: A Practical Guide to Personal Freedom",
+        "price_str": "£17.66",
+        "price_val": 17.66,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/the-four-agreements-a-practical-guide-to-personal-freedom_970/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
+        "price_str": "£31.05",
+        "price_val": 31.05,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/the-five-love-languages-how-to-express-heartfelt-commitment-to-your-mate_969/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Elephant Tree",
+        "price_str": "£23.82",
+        "price_val": 23.82,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/the-elephant-tree_968/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Bear and the Piano",
+        "price_str": "£36.89",
+        "price_val": 36.89,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/the-bear-and-the-piano_967/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Sophie's World",
+        "price_str": "£15.94",
+        "price_val": 15.94,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/sophies-world_966/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Penny Maybe",
+        "price_str": "£33.29",
+        "price_val": 33.29,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/penny-maybe_965/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Maude (1883-1993):She Grew Up with the country",
+        "price_str": "£18.02",
+        "price_val": 18.02,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/maude-1883-1993she-grew-up-with-the-country_964/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "In a Dark, Dark Wood",
+        "price_str": "£19.63",
+        "price_val": 19.63,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/in-a-dark-dark-wood_963/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Behind Closed Doors",
+        "price_str": "£52.22",
+        "price_val": 52.22,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/behind-closed-doors_962/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "You can't bury them all: Poems",
+        "price_str": "£33.63",
+        "price_val": 33.63,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/you-cant-bury-them-all-poems_961/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Slow States of Collapse: Poems",
+        "price_str": "£57.31",
+        "price_val": 57.31,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/slow-states-of-collapse-poems_960/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Reasons to Stay Alive",
+        "price_str": "£26.41",
+        "price_val": 26.41,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/reasons-to-stay-alive_959/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Private Paris (Private #10)",
+        "price_str": "£47.61",
+        "price_val": 47.61,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/private-paris-private-10_958/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "#HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.",
+        "price_str": "£23.11",
+        "price_val": 23.11,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/higherselfie-wake-up-your-life-free-your-soul-find-your-tribe_957/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Without Borders (Wanderlove #1)",
+        "price_str": "£45.07",
+        "price_val": 45.07,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/without-borders-wanderlove-1_956/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "When We Collided",
+        "price_str": "£31.77",
+        "price_val": 31.77,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/when-we-collided_955/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "We Love You, Charlie Freeman",
+        "price_str": "£50.27",
+        "price_val": 50.27,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/we-love-you-charlie-freeman_954/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Untitled Collection: Sabbath Poems 2014",
+        "price_str": "£14.27",
+        "price_val": 14.27,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/untitled-collection-sabbath-poems-2014_953/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness",
+        "price_str": "£44.18",
+        "price_val": 44.18,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/unseen-city-the-majesty-of-pigeons-the-discreet-charm-of-snails-other-wonders-of-the-urban-wilderness_952/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Unicorn Tracks",
+        "price_str": "£18.78",
+        "price_val": 18.78,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/unicorn-tracks_951/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink",
+        "price_str": "£25.52",
+        "price_val": 25.52,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/unbound-how-eight-technologies-made-us-human-transformed-society-and-brought-our-world-to-the-brink_950/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)",
+        "price_str": "£16.28",
+        "price_val": 16.28,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/tsubasa-world-chronicle-2-tsubasa-world-chronicle-2_949/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity",
+        "price_str": "£31.12",
+        "price_val": 31.12,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/throwing-rocks-at-the-google-bus-how-growth-became-the-enemy-of-prosperity_948/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "This One Summer",
+        "price_str": "£19.49",
+        "price_val": 19.49,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/this-one-summer_947/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Thirst",
+        "price_str": "£17.27",
+        "price_val": 17.27,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "https://books.toscrape.com/catalogue/thirst_946/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Torch Is Passed: A Harding Family Story",
+        "price_str": "£19.09",
+        "price_val": 19.09,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/the-torch-is-passed-a-harding-family-story_945/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Secret of Dreadwillow Carse",
+        "price_str": "£56.13",
+        "price_val": 56.13,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/the-secret-of-dreadwillow-carse_944/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!",
+        "price_str": "£56.41",
+        "price_val": 56.41,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "https://books.toscrape.com/catalogue/the-pioneer-woman-cooks-dinnertime-comfort-classics-freezer-food-16-minute-meals-and-other-delicious-ways-to-solve-supper_943/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Past Never Ends",
+        "price_str": "£56.50",
+        "price_val": 56.5,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "https://books.toscrape.com/catalogue/the-past-never-ends_942/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Natural History of Us (The Fine Art of Pretending #2)",
+        "price_str": "£45.22",
+        "price_val": 45.22,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "https://books.toscrape.com/catalogue/the-natural-history-of-us-the-fine-art-of-pretending-2_941/index.html",
+        "availability": "In stock"
+      }
+    ]
+  },
+  {
+    "session_id": "20260619_214857",
+    "timestamp": "2026-06-19 21:48:57",
+    "url": "http://books.toscrape.com/",
+    "products_count": 60,
+    "products": [
+      {
+        "name": "A Light in the Attic",
+        "price_str": "£51.77",
+        "price_val": 51.77,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Tipping the Velvet",
+        "price_str": "£53.74",
+        "price_val": 53.74,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Soumission",
+        "price_str": "£50.10",
+        "price_val": 50.1,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/soumission_998/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Sharp Objects",
+        "price_str": "£47.82",
+        "price_val": 47.82,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/sharp-objects_997/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Sapiens: A Brief History of Humankind",
+        "price_str": "£54.23",
+        "price_val": 54.23,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Requiem Red",
+        "price_str": "£22.65",
+        "price_val": 22.65,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-requiem-red_995/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Dirty Little Secrets of Getting Your Dream Job",
+        "price_str": "£33.34",
+        "price_val": 33.34,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
+        "price_str": "£17.93",
+        "price_val": 17.93,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+        "price_str": "£22.60",
+        "price_val": 22.6,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Black Maria",
+        "price_str": "£52.15",
+        "price_val": 52.15,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-black-maria_991/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Starving Hearts (Triangular Trade Trilogy, #1)",
+        "price_str": "£13.99",
+        "price_val": 13.99,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Shakespeare's Sonnets",
+        "price_str": "£20.66",
+        "price_val": 20.66,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Set Me Free",
+        "price_str": "£17.46",
+        "price_val": 17.46,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/set-me-free_988/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+        "price_str": "£52.29",
+        "price_val": 52.29,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Rip it Up and Start Again",
+        "price_str": "£35.02",
+        "price_val": 35.02,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+        "price_str": "£57.25",
+        "price_val": 57.25,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Olio",
+        "price_str": "£23.88",
+        "price_val": 23.88,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/olio_984/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Mesaerion: The Best Science Fiction Stories 1800-1849",
+        "price_str": "£37.59",
+        "price_val": 37.59,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Libertarianism for Beginners",
+        "price_str": "£51.33",
+        "price_val": 51.33,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "It's Only the Himalayas",
+        "price_str": "£45.17",
+        "price_val": 45.17,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "In Her Wake",
+        "price_str": "£12.84",
+        "price_val": 12.84,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/in-her-wake_980/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "How Music Works",
+        "price_str": "£37.32",
+        "price_val": 37.32,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/how-music-works_979/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More",
+        "price_str": "£30.52",
+        "price_val": 30.52,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/foolproof-preserving-a-guide-to-small-batch-jams-jellies-pickles-condiments-and-more-a-foolproof-guide-to-making-small-batch-jams-jellies-pickles-condiments-and-more_978/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Chase Me (Paris Nights #2)",
+        "price_str": "£25.27",
+        "price_val": 25.27,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/chase-me-paris-nights-2_977/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Black Dust",
+        "price_str": "£34.53",
+        "price_val": 34.53,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/black-dust_976/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Birdsong: A Story in Pictures",
+        "price_str": "£54.64",
+        "price_val": 54.64,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/birdsong-a-story-in-pictures_975/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana",
+        "price_str": "£22.50",
+        "price_val": 22.5,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/americas-cradle-of-quarterbacks-western-pennsylvanias-football-factory-from-johnny-unitas-to-joe-montana_974/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Aladdin and His Wonderful Lamp",
+        "price_str": "£53.13",
+        "price_val": 53.13,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/aladdin-and-his-wonderful-lamp_973/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Worlds Elsewhere: Journeys Around Shakespeare’s Globe",
+        "price_str": "£40.30",
+        "price_val": 40.3,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/worlds-elsewhere-journeys-around-shakespeares-globe_972/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Wall and Piece",
+        "price_str": "£44.18",
+        "price_val": 44.18,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/wall-and-piece_971/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Four Agreements: A Practical Guide to Personal Freedom",
+        "price_str": "£17.66",
+        "price_val": 17.66,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/the-four-agreements-a-practical-guide-to-personal-freedom_970/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
+        "price_str": "£31.05",
+        "price_val": 31.05,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-five-love-languages-how-to-express-heartfelt-commitment-to-your-mate_969/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Elephant Tree",
+        "price_str": "£23.82",
+        "price_val": 23.82,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/the-elephant-tree_968/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Bear and the Piano",
+        "price_str": "£36.89",
+        "price_val": 36.89,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-bear-and-the-piano_967/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Sophie's World",
+        "price_str": "£15.94",
+        "price_val": 15.94,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/sophies-world_966/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Penny Maybe",
+        "price_str": "£33.29",
+        "price_val": 33.29,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/penny-maybe_965/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Maude (1883-1993):She Grew Up with the country",
+        "price_str": "£18.02",
+        "price_val": 18.02,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/maude-1883-1993she-grew-up-with-the-country_964/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "In a Dark, Dark Wood",
+        "price_str": "£19.63",
+        "price_val": 19.63,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/in-a-dark-dark-wood_963/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Behind Closed Doors",
+        "price_str": "£52.22",
+        "price_val": 52.22,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/behind-closed-doors_962/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "You can't bury them all: Poems",
+        "price_str": "£33.63",
+        "price_val": 33.63,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/you-cant-bury-them-all-poems_961/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Slow States of Collapse: Poems",
+        "price_str": "£57.31",
+        "price_val": 57.31,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/slow-states-of-collapse-poems_960/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Reasons to Stay Alive",
+        "price_str": "£26.41",
+        "price_val": 26.41,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/reasons-to-stay-alive_959/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Private Paris (Private #10)",
+        "price_str": "£47.61",
+        "price_val": 47.61,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/private-paris-private-10_958/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "#HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.",
+        "price_str": "£23.11",
+        "price_val": 23.11,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/higherselfie-wake-up-your-life-free-your-soul-find-your-tribe_957/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Without Borders (Wanderlove #1)",
+        "price_str": "£45.07",
+        "price_val": 45.07,
+        "rating_val": 2.0,
+        "rating_str": "⭐⭐☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/without-borders-wanderlove-1_956/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "When We Collided",
+        "price_str": "£31.77",
+        "price_val": 31.77,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/when-we-collided_955/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "We Love You, Charlie Freeman",
+        "price_str": "£50.27",
+        "price_val": 50.27,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/we-love-you-charlie-freeman_954/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Untitled Collection: Sabbath Poems 2014",
+        "price_str": "£14.27",
+        "price_val": 14.27,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/untitled-collection-sabbath-poems-2014_953/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness",
+        "price_str": "£44.18",
+        "price_val": 44.18,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/unseen-city-the-majesty-of-pigeons-the-discreet-charm-of-snails-other-wonders-of-the-urban-wilderness_952/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Unicorn Tracks",
+        "price_str": "£18.78",
+        "price_val": 18.78,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/unicorn-tracks_951/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink",
+        "price_str": "£25.52",
+        "price_val": 25.52,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/unbound-how-eight-technologies-made-us-human-transformed-society-and-brought-our-world-to-the-brink_950/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)",
+        "price_str": "£16.28",
+        "price_val": 16.28,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/tsubasa-world-chronicle-2-tsubasa-world-chronicle-2_949/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity",
+        "price_str": "£31.12",
+        "price_val": 31.12,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/throwing-rocks-at-the-google-bus-how-growth-became-the-enemy-of-prosperity_948/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "This One Summer",
+        "price_str": "£19.49",
+        "price_val": 19.49,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/this-one-summer_947/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "Thirst",
+        "price_str": "£17.27",
+        "price_val": 17.27,
+        "rating_val": 5.0,
+        "rating_str": "⭐⭐⭐⭐⭐",
+        "url": "http://books.toscrape.com/catalogue/thirst_946/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Torch Is Passed: A Harding Family Story",
+        "price_str": "£19.09",
+        "price_val": 19.09,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-torch-is-passed-a-harding-family-story_945/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Secret of Dreadwillow Carse",
+        "price_str": "£56.13",
+        "price_val": 56.13,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-secret-of-dreadwillow-carse_944/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!",
+        "price_str": "£56.41",
+        "price_val": 56.41,
+        "rating_val": 1.0,
+        "rating_str": "⭐☆☆☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-pioneer-woman-cooks-dinnertime-comfort-classics-freezer-food-16-minute-meals-and-other-delicious-ways-to-solve-supper_943/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Past Never Ends",
+        "price_str": "£56.50",
+        "price_val": 56.5,
+        "rating_val": 4.0,
+        "rating_str": "⭐⭐⭐⭐☆",
+        "url": "http://books.toscrape.com/catalogue/the-past-never-ends_942/index.html",
+        "availability": "In stock"
+      },
+      {
+        "name": "The Natural History of Us (The Fine Art of Pretending #2)",
+        "price_str": "£45.22",
+        "price_val": 45.22,
+        "rating_val": 3.0,
+        "rating_str": "⭐⭐⭐☆☆",
+        "url": "http://books.toscrape.com/catalogue/the-natural-history-of-us-the-fine-art-of-pretending-2_941/index.html",
+        "availability": "In stock"
+      }
+    ]
+  }
+]

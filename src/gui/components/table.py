@@ -292,7 +292,7 @@ class ModernTable(ctk.CTkFrame):
                 corner_radius=4,
                 command=lambda url=prod.url: webbrowser.open(url)
             )
-            btn_action.grid(row=0, column=6, sticky="center", padx=5, pady=4)
+            btn_action.grid(row=0, column=6, sticky="ew", padx=5, pady=4)
             
             create_tooltip(btn_action, f"Open product link in browser:\n{prod.url}")
             
